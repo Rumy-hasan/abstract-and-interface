@@ -1,7 +1,8 @@
 # OOP
 ## Implement Object Oriented programming features in swift and c++
 
-## Abstraction: Abstraction act like a base class. Suppose some types of object have some same functionality and attributes. So what can we do to increase our code reusablity? We can make an abstruct class then implement our common methods and attributes in it. Whatever child class needed those functionality, just inharite this base class and use the base method if it fulfill our requirement or override it. So, abstruct class contain at least one pure virtual method(whose defination is not provided) and have concrite methods or others properties as well. We can not make instance of abstruct class. We can use them through child class. The c++ implementation are given below.
+## Abstraction: 
+Abstraction act like a base class. Suppose some types of object have some same functionality and attributes. So what can we do to increase our code reusablity? We can make an abstruct class then implement our common methods and attributes in it. Whatever child class needed those functionality, just inharite this base class and use the base method if it fulfill our requirement or override it. So, abstruct class contain at least one pure virtual method(whose defination is not provided) and have concrite methods or others properties as well. We can not make instance of abstruct class. We can use them through child class. The c++ implementation are given below.
 
 ```c++
 #include <iostream>
@@ -60,7 +61,8 @@ int main() {
 
 watch his answer about interface,
 "https://stackoverflow.com/questions/318064/how-do-you-declare-an-interface-in-c/9571456#9571456"
-## Interface: It only have declaration method. No implementation are provided. So, it's like a template without any detail implementation. Whatever class want to use those template method those class can inharite it. So, we can say a list of pure virtual function and the drive class must need to implement them.
+## Interface: 
+It only have declaration method. No implementation are provided. So, it's like a template without any detail implementation. Whatever class want to use those template method those class can inharite it. So, we can say a list of pure virtual function and the drive class must need to implement them.
 
 ```c++
 class IBase {
